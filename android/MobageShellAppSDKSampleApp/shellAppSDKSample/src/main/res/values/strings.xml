@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShellAppSDKSample</string>
+    <string name="url">_INITIAL_URL_</string>
+    <string name="finish_dialog_title">ゲームの終了</string>
+    <string name="finish_dialog_message">起動中のゲームを終了します</string>
+    <string name="finish_dialog_ok">はい</string>
+    <string name="finish_dialog_cancel">いいえ</string>
+</resources>

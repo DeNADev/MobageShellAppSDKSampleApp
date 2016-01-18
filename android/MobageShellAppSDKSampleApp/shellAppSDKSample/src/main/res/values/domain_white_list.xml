@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        WebView での表示を許可するドメインのリストです。
+        ここに記述されたドメインのサブドメインも許可されます。
+     -->
+    <string-array name="domain_white_list">
+        <item>www1.example.com</item>
+        <item>www2.example.com</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 14
+        versionCode 1
+        versionName "1.0.0"
+
+        def mobageApplicationId = "_MOBAGE_APPLICATION_ID_";
+        applicationId = "jp.mobage.am.g${mobageApplicationId}.lite"
+        manifestPlaceholders = [ MobageApplicationId:"${mobageApplicationId}"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':MobageShellAppSDKAndroid')
+    compile 'com.google.android.gms:play-services-base:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+}

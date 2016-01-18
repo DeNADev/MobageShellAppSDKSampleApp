@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80404ED21A5FBED50010F5AF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80404ECF1A5FBEC60010F5AF /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80404ED81A5FE3F80010F5AF /* MSSSAWebViewSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404ED51A5FE3F80010F5AF /* MSSSAWebViewSelector.m */; };
+		80404EDE1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404EDB1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.m */; };
+		80404EE41A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404EE11A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.m */; };
+		80404F1A1A667EEA0010F5AF /* MSSSAFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404F171A667EEA0010F5AF /* MSSSAFooterView.m */; };
+		80404F2B1A678B8F0010F5AF /* MSSSAActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404F281A678B8F0010F5AF /* MSSSAActivityIndicatorView.m */; };
+		80404F311A6795D00010F5AF /* MSSSAAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404F2E1A6795D00010F5AF /* MSSSAAudioEngine.m */; };
+		80404F3D1A6796070010F5AF /* MSSSASound.m in Sources */ = {isa = PBXBuildFile; fileRef = 80404F3A1A6796070010F5AF /* MSSSASound.m */; };
+		8056B5381A30282400AB2C63 /* MobageShellAppResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 805182FD1A30010F00F4271A /* MobageShellAppResources.bundle */; };
+		8056B53A1A30284A00AB2C63 /* MobageShellApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805182FA1A30007000F4271A /* MobageShellApp.framework */; };
+		8056B5451A302A2600AB2C63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8056B53C1A302A2600AB2C63 /* Images.xcassets */; };
+		8056B5491A302A2600AB2C63 /* MSSSAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056B53E1A302A2600AB2C63 /* MSSSAAppDelegate.m */; };
+		8056B54D1A302A2600AB2C63 /* MSSSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056B5401A302A2600AB2C63 /* MSSSAViewController.m */; };
+		8056B5581A302AC500AB2C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056B5531A302AC500AB2C63 /* main.m */; };
+		8056B5621A302AEC00AB2C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8056B55E1A302AEC00AB2C63 /* InfoPlist.strings */; };
+		8056B56A1A302AF900AB2C63 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8056B5641A302AF900AB2C63 /* Main_iPad.storyboard */; };
+		8056B56E1A302AF900AB2C63 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8056B5661A302AF900AB2C63 /* Main_iPhone.storyboard */; };
+		807B1B2D19F4C4D300A4504E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E1502119DC0787003A94E6 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		807B1B2E19F4C4D300A4504E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443F6E6219E3C57200575657 /* StoreKit.framework */; };
+		807B1B3019F4C4D300A4504E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8001C20E19BD8CAC0085819E /* CoreTelephony.framework */; };
+		807B1B3119F4C4D300A4504E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8001C20C19BD8C9D0085819E /* SystemConfiguration.framework */; };
+		807B1B3219F4C4D300A4504E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8001C20919BD8C8E0085819E /* Security.framework */; };
+		807B1B3419F4C4D300A4504E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E595819AC8096004002A8 /* CoreGraphics.framework */; };
+		807B1B3519F4C4D300A4504E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E595A19AC8096004002A8 /* UIKit.framework */; };
+		807B1B3619F4C4D300A4504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E595619AC8096004002A8 /* Foundation.framework */; };
+		80860AFE1A6FBF70006166B4 /* footer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80860AFD1A6FBF70006166B4 /* footer.xib */; };
+		80A29E371A67DD8100DF441C /* MSSSASoundAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A29E341A67DD8100DF441C /* MSSSASoundAssets.m */; };
+		80A29E3D1A68E40600DF441C /* MSSSADomainWhiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A29E3A1A68E40600DF441C /* MSSSADomainWhiteList.m */; };
+		80A29E431A68F91E00DF441C /* MSSSACommonWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A29E401A68F91E00DF441C /* MSSSACommonWebViewDelegate.m */; };
+		80BA1B981A6E2F6800F383A8 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 80BA1B971A6E2F6800F383A8 /* sounds */; };
+		80C773D91A91E7170054537D /* MSSSAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C773D81A91E7170054537D /* MSSSAUtils.m */; };
+		C5DE9A3A1C193D8E00D79361 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DE9A391C193D8E00D79361 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363E595619AC8096004002A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		363E595819AC8096004002A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		363E595A19AC8096004002A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		443F6E6219E3C57200575657 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8001C20919BD8C8E0085819E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8001C20C19BD8C9D0085819E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8001C20E19BD8CAC0085819E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		80404ECF1A5FBEC60010F5AF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		80404ED41A5FE3F80010F5AF /* MSSSAWebViewSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSSAWebViewSelector.h; path = MobageShellAppSDKSampleApp/MSSSAWebViewSelector.h; sourceTree = SOURCE_ROOT; };
+		80404ED51A5FE3F80010F5AF /* MSSSAWebViewSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSSAWebViewSelector.m; path = MobageShellAppSDKSampleApp/MSSSAWebViewSelector.m; sourceTree = SOURCE_ROOT; };
+		80404EDA1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAUIWebViewDelegate.h; path = MobageShellAppSDKSampleApp/MSSSAUIWebViewDelegate.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80404EDB1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSAUIWebViewDelegate.m; path = MobageShellAppSDKSampleApp/MSSSAUIWebViewDelegate.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80404EE01A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSSAWKWebViewDelegate.h; path = MobageShellAppSDKSampleApp/MSSSAWKWebViewDelegate.h; sourceTree = SOURCE_ROOT; };
+		80404EE11A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSSAWKWebViewDelegate.m; path = MobageShellAppSDKSampleApp/MSSSAWKWebViewDelegate.m; sourceTree = SOURCE_ROOT; };
+		80404F161A667EEA0010F5AF /* MSSSAFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAFooterView.h; path = MobageShellAppSDKSampleApp/MSSSAFooterView.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80404F171A667EEA0010F5AF /* MSSSAFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSSAFooterView.m; path = MobageShellAppSDKSampleApp/MSSSAFooterView.m; sourceTree = SOURCE_ROOT; };
+		80404F271A678B8F0010F5AF /* MSSSAActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAActivityIndicatorView.h; path = MobageShellAppSDKSampleApp/MSSSAActivityIndicatorView.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80404F281A678B8F0010F5AF /* MSSSAActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSAActivityIndicatorView.m; path = MobageShellAppSDKSampleApp/MSSSAActivityIndicatorView.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80404F2D1A6795D00010F5AF /* MSSSAAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAAudioEngine.h; path = MobageShellAppSDKSampleApp/MSSSAAudioEngine.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80404F2E1A6795D00010F5AF /* MSSSAAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSAAudioEngine.m; path = MobageShellAppSDKSampleApp/MSSSAAudioEngine.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80404F391A6796070010F5AF /* MSSSASound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSASound.h; path = MobageShellAppSDKSampleApp/MSSSASound.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80404F3A1A6796070010F5AF /* MSSSASound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSASound.m; path = MobageShellAppSDKSampleApp/MSSSASound.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		805182FA1A30007000F4271A /* MobageShellApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobageShellApp.framework; path = sdk/MobageShellApp.framework; sourceTree = "<group>"; };
+		805182FD1A30010F00F4271A /* MobageShellAppResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobageShellAppResources.bundle; path = ../sdk/MobageShellAppResources.bundle; sourceTree = "<group>"; };
+		8056B53C1A302A2600AB2C63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MobageShellAppSDKSampleApp/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		8056B53D1A302A2600AB2C63 /* MSSSAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAAppDelegate.h; path = MobageShellAppSDKSampleApp/MSSSAAppDelegate.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8056B53E1A302A2600AB2C63 /* MSSSAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSAAppDelegate.m; path = MobageShellAppSDKSampleApp/MSSSAAppDelegate.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8056B53F1A302A2600AB2C63 /* MSSSAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSAViewController.h; path = MobageShellAppSDKSampleApp/MSSSAViewController.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8056B5401A302A2600AB2C63 /* MSSSAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSAViewController.m; path = MobageShellAppSDKSampleApp/MSSSAViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8056B5531A302AC500AB2C63 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = main.m; path = MobageShellAppSDKSampleApp/main.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8056B5551A302AC500AB2C63 /* MobageShellAppSDKSampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MobageShellAppSDKSampleApp-Prefix.pch"; path = "MobageShellAppSDKSampleApp/MobageShellAppSDKSampleApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8056B55F1A302AEC00AB2C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MobageShellAppSDKSampleApp/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		8056B5651A302AF900AB2C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MobageShellAppSDKSampleApp/Base.lproj/Main_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		8056B5671A302AF900AB2C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MobageShellAppSDKSampleApp/Base.lproj/Main_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		807B1B4C19F4C4D300A4504E /* MobageShellAppSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobageShellAppSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80860AFD1A6FBF70006166B4 /* footer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = footer.xib; path = MobageShellAppSDKSampleApp/footer.xib; sourceTree = SOURCE_ROOT; };
+		80A29E331A67DD8100DF441C /* MSSSASoundAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSASoundAssets.h; path = MobageShellAppSDKSampleApp/MSSSASoundAssets.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80A29E341A67DD8100DF441C /* MSSSASoundAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSASoundAssets.m; path = MobageShellAppSDKSampleApp/MSSSASoundAssets.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80A29E391A68E40600DF441C /* MSSSADomainWhiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSADomainWhiteList.h; path = MobageShellAppSDKSampleApp/MSSSADomainWhiteList.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80A29E3A1A68E40600DF441C /* MSSSADomainWhiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSADomainWhiteList.m; path = MobageShellAppSDKSampleApp/MSSSADomainWhiteList.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80A29E3F1A68F91E00DF441C /* MSSSACommonWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MSSSACommonWebViewDelegate.h; path = MobageShellAppSDKSampleApp/MSSSACommonWebViewDelegate.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		80A29E401A68F91E00DF441C /* MSSSACommonWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MSSSACommonWebViewDelegate.m; path = MobageShellAppSDKSampleApp/MSSSACommonWebViewDelegate.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		80BA1B971A6E2F6800F383A8 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		80C773D71A91E7170054537D /* MSSSAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSSAUtils.h; path = MobageShellAppSDKSampleApp/MSSSAUtils.h; sourceTree = SOURCE_ROOT; };
+		80C773D81A91E7170054537D /* MSSSAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSSAUtils.m; path = MobageShellAppSDKSampleApp/MSSSAUtils.m; sourceTree = SOURCE_ROOT; };
+		80E1502119DC0787003A94E6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C5DE9A371C1930DB00D79361 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DE9A391C193D8E00D79361 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807B1B2C19F4C4D300A4504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8056B53A1A30284A00AB2C63 /* MobageShellApp.framework in Frameworks */,
+				C5DE9A3A1C193D8E00D79361 /* SafariServices.framework in Frameworks */,
+				80404ED21A5FBED50010F5AF /* AdSupport.framework in Frameworks */,
+				807B1B2D19F4C4D300A4504E /* WebKit.framework in Frameworks */,
+				807B1B2E19F4C4D300A4504E /* StoreKit.framework in Frameworks */,
+				807B1B3019F4C4D300A4504E /* CoreTelephony.framework in Frameworks */,
+				807B1B3119F4C4D300A4504E /* SystemConfiguration.framework in Frameworks */,
+				807B1B3219F4C4D300A4504E /* Security.framework in Frameworks */,
+				807B1B3419F4C4D300A4504E /* CoreGraphics.framework in Frameworks */,
+				807B1B3519F4C4D300A4504E /* UIKit.framework in Frameworks */,
+				807B1B3619F4C4D300A4504E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363E594A19AC8096004002A8 = {
+			isa = PBXGroup;
+			children = (
+				363E595C19AC8096004002A8 /* MobageShellAppSDKSampleApp */,
+				80962C2719C042E1004280FC /* Resources */,
+				363E595519AC8096004002A8 /* Frameworks */,
+				363E595419AC8096004002A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363E595419AC8096004002A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807B1B4C19F4C4D300A4504E /* MobageShellAppSDKSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363E595519AC8096004002A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805182FA1A30007000F4271A /* MobageShellApp.framework */,
+				C5DE9A391C193D8E00D79361 /* SafariServices.framework */,
+				80404ECF1A5FBEC60010F5AF /* AdSupport.framework */,
+				80E1502119DC0787003A94E6 /* WebKit.framework */,
+				443F6E6219E3C57200575657 /* StoreKit.framework */,
+				8001C20E19BD8CAC0085819E /* CoreTelephony.framework */,
+				8001C20C19BD8C9D0085819E /* SystemConfiguration.framework */,
+				8001C20919BD8C8E0085819E /* Security.framework */,
+				363E595619AC8096004002A8 /* Foundation.framework */,
+				363E595819AC8096004002A8 /* CoreGraphics.framework */,
+				363E595A19AC8096004002A8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363E595C19AC8096004002A8 /* MobageShellAppSDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				800F9B9F1A6C9FC0007F6BA1 /* View */,
+				800F9BA21A6CA2E6007F6BA1 /* Utils */,
+				363E595D19AC8096004002A8 /* Supporting Files */,
+				8056B5641A302AF900AB2C63 /* Main_iPad.storyboard */,
+				8056B5661A302AF900AB2C63 /* Main_iPhone.storyboard */,
+				80860AFD1A6FBF70006166B4 /* footer.xib */,
+				8056B53C1A302A2600AB2C63 /* Images.xcassets */,
+				8056B53D1A302A2600AB2C63 /* MSSSAAppDelegate.h */,
+				8056B53E1A302A2600AB2C63 /* MSSSAAppDelegate.m */,
+				8056B53F1A302A2600AB2C63 /* MSSSAViewController.h */,
+				8056B5401A302A2600AB2C63 /* MSSSAViewController.m */,
+			);
+			name = MobageShellAppSDKSampleApp;
+			path = MobageShellAppSDKTestApp;
+			sourceTree = "<group>";
+		};
+		363E595D19AC8096004002A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8056B55E1A302AEC00AB2C63 /* InfoPlist.strings */,
+				8056B5531A302AC500AB2C63 /* main.m */,
+				8056B5551A302AC500AB2C63 /* MobageShellAppSDKSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		800F9B9F1A6C9FC0007F6BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80404F161A667EEA0010F5AF /* MSSSAFooterView.h */,
+				80404F171A667EEA0010F5AF /* MSSSAFooterView.m */,
+				80404F271A678B8F0010F5AF /* MSSSAActivityIndicatorView.h */,
+				80404F281A678B8F0010F5AF /* MSSSAActivityIndicatorView.m */,
+				800F9BA01A6C9FCA007F6BA1 /* WebView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		800F9BA01A6C9FCA007F6BA1 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				80404ED41A5FE3F80010F5AF /* MSSSAWebViewSelector.h */,
+				80404ED51A5FE3F80010F5AF /* MSSSAWebViewSelector.m */,
+				80404EDA1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.h */,
+				80404EDB1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.m */,
+				80404EE01A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.h */,
+				80404EE11A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.m */,
+				80A29E3F1A68F91E00DF441C /* MSSSACommonWebViewDelegate.h */,
+				80A29E401A68F91E00DF441C /* MSSSACommonWebViewDelegate.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		800F9BA21A6CA2E6007F6BA1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				80A29E321A67DD4200DF441C /* Sound */,
+				80A29E391A68E40600DF441C /* MSSSADomainWhiteList.h */,
+				80A29E3A1A68E40600DF441C /* MSSSADomainWhiteList.m */,
+				80C773D71A91E7170054537D /* MSSSAUtils.h */,
+				80C773D81A91E7170054537D /* MSSSAUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		80962C2719C042E1004280FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5DE9A371C1930DB00D79361 /* Info.plist */,
+				805182FD1A30010F00F4271A /* MobageShellAppResources.bundle */,
+				80BA1B971A6E2F6800F383A8 /* sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80A29E321A67DD4200DF441C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				80404F2D1A6795D00010F5AF /* MSSSAAudioEngine.h */,
+				80404F2E1A6795D00010F5AF /* MSSSAAudioEngine.m */,
+				80404F391A6796070010F5AF /* MSSSASound.h */,
+				80404F3A1A6796070010F5AF /* MSSSASound.m */,
+				80A29E331A67DD8100DF441C /* MSSSASoundAssets.h */,
+				80A29E341A67DD8100DF441C /* MSSSASoundAssets.m */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807B1B2219F4C4D300A4504E /* MobageShellAppSDKSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807B1B4919F4C4D300A4504E /* Build configuration list for PBXNativeTarget "MobageShellAppSDKSampleApp" */;
+			buildPhases = (
+				807B1B2719F4C4D300A4504E /* Sources */,
+				807B1B2C19F4C4D300A4504E /* Frameworks */,
+				807B1B3719F4C4D300A4504E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobageShellAppSDKSampleApp;
+			productName = MobageShellAppSDKTestApp;
+			productReference = 807B1B4C19F4C4D300A4504E /* MobageShellAppSDKSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363E594B19AC8096004002A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSSSA;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DeNA;
+			};
+			buildConfigurationList = 363E594E19AC8096004002A8 /* Build configuration list for PBXProject "MobageShellAppSDKSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363E594A19AC8096004002A8;
+			productRefGroup = 363E595419AC8096004002A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807B1B2219F4C4D300A4504E /* MobageShellAppSDKSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807B1B3719F4C4D300A4504E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8056B5381A30282400AB2C63 /* MobageShellAppResources.bundle in Resources */,
+				80BA1B981A6E2F6800F383A8 /* sounds in Resources */,
+				8056B5621A302AEC00AB2C63 /* InfoPlist.strings in Resources */,
+				8056B5451A302A2600AB2C63 /* Images.xcassets in Resources */,
+				8056B56E1A302AF900AB2C63 /* Main_iPhone.storyboard in Resources */,
+				80860AFE1A6FBF70006166B4 /* footer.xib in Resources */,
+				8056B56A1A302AF900AB2C63 /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807B1B2719F4C4D300A4504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8056B5581A302AC500AB2C63 /* main.m in Sources */,
+				8056B5491A302A2600AB2C63 /* MSSSAAppDelegate.m in Sources */,
+				80A29E371A67DD8100DF441C /* MSSSASoundAssets.m in Sources */,
+				80404EDE1A5FE4A30010F5AF /* MSSSAUIWebViewDelegate.m in Sources */,
+				80404F2B1A678B8F0010F5AF /* MSSSAActivityIndicatorView.m in Sources */,
+				80404F311A6795D00010F5AF /* MSSSAAudioEngine.m in Sources */,
+				80404ED81A5FE3F80010F5AF /* MSSSAWebViewSelector.m in Sources */,
+				80C773D91A91E7170054537D /* MSSSAUtils.m in Sources */,
+				80A29E431A68F91E00DF441C /* MSSSACommonWebViewDelegate.m in Sources */,
+				80404EE41A5FE4BE0010F5AF /* MSSSAWKWebViewDelegate.m in Sources */,
+				8056B54D1A302A2600AB2C63 /* MSSSAViewController.m in Sources */,
+				80A29E3D1A68E40600DF441C /* MSSSADomainWhiteList.m in Sources */,
+				80404F1A1A667EEA0010F5AF /* MSSSAFooterView.m in Sources */,
+				80404F3D1A6796070010F5AF /* MSSSASound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8056B55E1A302AEC00AB2C63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8056B55F1A302AEC00AB2C63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8056B5641A302AF900AB2C63 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8056B5651A302AF900AB2C63 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8056B5661A302AF900AB2C63 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8056B5671A302AF900AB2C63 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363E598619AC8096004002A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		363E598719AC8096004002A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807B1B4A19F4C4D300A4504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/sdk",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobageShellAppSDKSampleApp/MobageShellAppSDKSampleApp-Prefix.pch";
+				INFOPLIST_FILE = Resources/info.plist;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MobageShellAppSDKSampleApp;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/sdk/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		807B1B4B19F4C4D300A4504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/sdk",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobageShellAppSDKSampleApp/MobageShellAppSDKSampleApp-Prefix.pch";
+				INFOPLIST_FILE = Resources/info.plist;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MobageShellAppSDKSampleApp;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/sdk/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363E594E19AC8096004002A8 /* Build configuration list for PBXProject "MobageShellAppSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E598619AC8096004002A8 /* Debug */,
+				363E598719AC8096004002A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807B1B4919F4C4D300A4504E /* Build configuration list for PBXNativeTarget "MobageShellAppSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807B1B4A19F4C4D300A4504E /* Debug */,
+				807B1B4B19F4C4D300A4504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363E594B19AC8096004002A8 /* Project object */;
+}
