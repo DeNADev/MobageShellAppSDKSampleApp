@@ -43,5 +43,5 @@ Mobage ShellApp SDK Android Sample Application
 
 動作確認環境
 --------------------------------------------------------------------------------
-- Android Studio 1.5.1
-- Mac OS X 10.11.2
+- Android Studio 3.0.0
+- Mac OS X 10.13.6
