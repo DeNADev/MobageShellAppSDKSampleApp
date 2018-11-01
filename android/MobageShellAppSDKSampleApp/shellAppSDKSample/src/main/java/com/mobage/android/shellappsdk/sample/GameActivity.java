@@ -79,7 +79,11 @@ public class GameActivity extends Activity {
         // Embedded Key/Embedded Secret を設定します。Sandbox用と本番用で値が異なります。
         // Embedded Key/Embedded Secret は独自ロジックで暗号化することをお勧めします。
         mMobageContext.setClientCredentials("_EMBEDDED_KEY_", "_EMBEDDED_SECRET_");
-        
+
+        //リモート通知機能を使う場合は必ず以下のようにコールして下さい。
+//        mMobageContext.setClientCredentials("_EMBEDDED_KEY_","_EMBEDDED_SECRET_", MobageContext.ServerMode.SANDBOX);
+//        mMobageContext.setFirebaseDefaultApp();
+
         // WebView を初期化します。
         mWebView = (GameWebView)findViewById(Res.id("webView"));
         setupWebView(mWebView);
