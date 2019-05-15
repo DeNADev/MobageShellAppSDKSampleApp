@@ -3,11 +3,6 @@
     package="jp.mobage.am.shellapp.sample"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="com.android.vending.BILLING" />
-
     <application
         android:allowBackup="true"
         android:label="@string/app_name"

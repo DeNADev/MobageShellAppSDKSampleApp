@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.3"
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0.0"
 
@@ -24,9 +23,6 @@ android {
 }
 
 dependencies {
-    compile project(':MobageShellAppSDKAndroid')
-
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
-    implementation 'com.google.firebase:firebase-messaging:17.1.0'
-    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation project(':MobageShellAppSDKAndroid')
+    implementation 'com.google.android.gms:play-services-base:16.1.0'
 }
